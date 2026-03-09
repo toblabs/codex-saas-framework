@@ -10,7 +10,6 @@ The project follows a structured pipeline:
 
 Idea → PRD → Feature Specs → Architecture → Implementation → QA → Deployment
 
-------------------------------------------------------------------------
 
 # Core Concept
 
@@ -29,7 +28,6 @@ This makes AI‑driven development:
 -   auditable
 -   maintainable
 
-------------------------------------------------------------------------
 
 # Tech Stack
 
@@ -54,10 +52,9 @@ The repository assumes the following stack:
 -   Vercel
 -   Environment variables via `.env.local`
 
-------------------------------------------------------------------------
 
 # Repository Structure
-
+```
     .
     ├── AGENTS.md
     ├── docs
@@ -80,7 +77,7 @@ The repository assumes the following stack:
     │
     └── src
 
-------------------------------------------------------------------------
+```
 
 # Development Workflow
 
@@ -125,7 +122,6 @@ Agents use dedicated skills:
 -   qa
 -   deploy
 
-------------------------------------------------------------------------
 
 # Using Codex
 
@@ -202,7 +198,6 @@ Use the QA skill to verify PROJ-1.
 Use the deploy skill to prepare the feature for production.
 ```
 
-------------------------------------------------------------------------
 
 # Feature Lifecycle
 
@@ -211,7 +206,6 @@ Each feature moves through these states:
 Draft → Planned → In Progress → Review → Done → Deployed
 ```
 
-------------------------------------------------------------------------
 
 # Rules
 
@@ -225,7 +219,6 @@ Agents must always:
 -   respect authentication and authorization boundaries
 -   avoid introducing alternative frameworks
 
-------------------------------------------------------------------------
 
 # Commands
 
@@ -245,7 +238,7 @@ Lint
 ```bash
 npm run lint
 ```
-------------------------------------------------------------------------
+
 
 # Goal of this Repository
 
